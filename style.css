@@ -1,0 +1,267 @@
+
+
+@font-face {
+  font-family: 'atteronregular';
+  src: url('atteron-webfont.woff') format('woff'),
+       url('atteron-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+
+}
+img{
+  padding: 1.5vh;
+  border: 2px solid white;
+}
+hr{
+  margin: 0 10vw;
+  border: solid 1px rgb(246, 192, 163);
+}
+h1{
+  text-shadow: 0 0 10px  rgb(245, 123, 79);
+  
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'atteronregular';
+  letter-spacing: 3px;
+  font-weight: 300;
+  
+}
+p{
+  font-family: 'Cardo', serif;
+  color: rgb(227, 90, 16);
+}
+body{
+  overflow-x: hidden;
+  background-color: rgb(246, 214, 202);
+  
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.top p{
+  font-family: 'Cardo', serif;
+  font-style: italic;
+  margin: 2vh 4vw 0 4vw;
+  font-size: 30px;
+  
+  
+}
+/*.blur{
+  width: 19vw;
+  height: 10vh;
+  background-color: rgba(246, 214, 202,100);
+  filter: blur(25px);
+  position: absolute;
+  left:40vw;
+  top:21vw;
+  z-index: -1;
+}*/
+.topCenter h1{
+  font-family: 'Pirata One', cursive;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'atteronregular';
+  font-size: 7vw;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0;
+  text-shadow: 0 0 25px  rgb(245, 123, 79);
+  color: aliceblue;
+}
+
+.topCenter img{
+  align-items: center;
+  position: relative;
+  left: 42.3vw;
+  bottom: 18vh;
+  width: 17vw;
+  z-index: -2;
+  padding: 1.5vh;
+  border: 3px dashed white;
+
+
+}
+
+.topCenter{
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.left{
+  margin: 6vw 7vw;
+}
+
+.left img{
+  width: 35vw;
+  padding: 1.5vh;
+  border: 3px solid white;
+  
+}
+
+ .secondPage .left h1{
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 8.5vh;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px  rgb(245, 123, 79);
+  margin-left: 0;
+  margin-top: 3vh;
+
+}
+
+.secondPage{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vw;
+  margin-right: 7vw;
+  
+}
+
+.secondPage .right p{
+font-size: 25px;
+}
+
+.secondPage .right img{
+  width: 35vh;
+  margin-left: 25vh;
+  padding: 1.5vh;
+  border: 2px solid white;
+}
+
+ h1{
+  font-size: 4vw;
+  font-weight: 300;
+  margin-left: 8vw;
+  margin-top: 15vh;
+}
+.thirdPage{
+  display: flex;
+  justify-content: space-around;
+}
+
+.thirdPage .left{
+  margin: 23vh 10vw 0 3vw;
+  
+}
+
+.thirdPage .right img{
+  width: 20vw;
+  margin-bottom:10vh ;
+}
+
+.thirdpage p ,h3{
+  font-weight: 900;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height:3px;
+}
+
+.thirdpage h3{
+  font-size: 25px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.forthPage{
+  display: flex;
+  justify-content: center;
+}
+
+.book{
+  margin: 2vh 4vw 5vh 4vw;
+  width: 15vw;
+}
+.book img{
+  width: 18vw;
+
+}
+.fifthPage img{
+  margin-top: 6vh;
+  margin-bottom: 10vh;
+  width: 85vw;
+  height: 60vh;
+  
+}
+.fifthPage{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+.Para{
+  font-size: 2.5vw;
+  
+  margin-left: 7vw;
+  
+}
+.sixthPage{
+ display: flex;
+ justify-content: space-around;
+}
+.sixthPage .left h1{
+margin-left: 1vw;
+margin-top: 16vh;
+
+}
+.sixthPage .left p{
+  margin-left: 1vw;
+  margin-top: -4vh;
+}
+
+.sixthPage .center img{
+  margin-top: 28vh;
+  margin-bottom: 10vh;
+  
+}
+.sixthPage .right{
+  margin-top: 3vh;
+
+}
+.seventhPage .top{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.seventhPage .top h1{
+  margin-left: 0;
+}
+.seventhPage .top p{
+  margin-left: 0;
+  margin-top: 0;
+}
+.seventhPage .top img{
+  margin-right: 25vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.seventhPage .bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 0;
+  margin-left: 10vh;
+ 
+}
+.seventhPage .bottom p{
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.bottom span{
+  color: rgb(165, 143, 127);
+}
+
+.bottom hr{
+  margin-left: 0;
+  width: 17vw;
+  margin-bottom: 10vh;
+}
